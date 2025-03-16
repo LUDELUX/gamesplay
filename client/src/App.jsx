@@ -1,12 +1,18 @@
 
 import './App.css'
+import Header from './components/Header/Header.jsx'
+import Home from './components/home/Home.jsx'
 
 function App() {
   
 
   return (
     <div id='box'>
-      <h1>games play</h1>
+      <Header/>
+
+      <main id="main-content">
+        <Home/>
+        </main>
     </div>
   )
 }
